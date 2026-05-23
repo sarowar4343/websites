@@ -10,14 +10,22 @@ body{
     justify-content:center;
     align-items:center;
     min-height:100vh;
-    background-color:rgb(77, 198, 245)
+    background-color:rgb(77, 198, 245);
+    background: url(marek-piwnicki--_OuVFhN5BU-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper{
     width:420px;
     background:rgba(255,255,255,0.82);
     color: black;
-
+    border-radius: 20px;
+    padding: 30px 40px;
+    background: transparent;
+    border: 2px solid rgba(160, 104, 30, 0.233);
+    backdrop-filter: blur(20px);
+    
 }
 .wrapper h2{
     font-size:36px;
@@ -53,8 +61,48 @@ body{
 
 .wrapper .remember-forgot{
     display:flex;
-    justify-content:space-between;
+    justify-content: space-between;
     font-size:14.5px;
-    margin: -15px 0 15px;
-    
+    margin: -10px 0 10px;
+}
+.remeber-forgot label input{
+    margin-right: 3px;
+}
+.wrapper .remember-forgot a{
+    color: rgb(160, 104, 30);
+    text-decoration: none;
+    margin-left:10px;
+    display: inline-block;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: rgb(201, 149, 82);
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+.wrapper .register{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.wrapper .register a{
+    color: rgb(160, 104, 30);
+    text-decoration: none;
+    font-weight: 600;
+}
+.wrapper .register a:hover{
+    text-decoration: underline;
 }
